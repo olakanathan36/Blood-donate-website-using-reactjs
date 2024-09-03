@@ -1,0 +1,178 @@
+
+.learn-about-donation {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .sections {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sections h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .sections p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+  }
+  
+
+  .bloodtype {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #d9534f;
+    border-radius: 5px;
+    background-color: white;
+    color: #d9534f;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1rem;
+    min-width: 60px;
+  }
+  
+  .bloodtype:hover {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .bloodtype.active {
+    background-color: #d9534f;
+    color: white;
+  }
+
+  .info-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap; 
+  }
+  
+
+  .tag1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    flex: 1;
+    min-width: 300px; 
+  }
+  
+
+  .info-can-take, .info-can-give {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-can-take {
+    background-color: #ffe0b3; 
+  }
+  
+  .info-can-give {
+    background-color: #cce5ff; 
+  }
+  
+ 
+  .info-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+
+  .tag2 {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px; 
+  }
+  
+  .donation-image {
+    text-align: center;
+  }
+  
+  .donation-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .donation-image p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+
+  @media (max-width: 768px) {
+    .info-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .tag1, .tag2 {
+      width: 100%;
+      max-width: 500px;
+    }
+  
+    .info-can-take, .info-can-give {
+      width: 100%;
+    }
+  }
+  /* donation */
+  .blood-donation-info {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .blood-components button {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blood-components button:hover {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .component-details {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+  }
+  
+  .component-details h2 {
+    color: #d9534f;
+  }
+  
+  .component-details p {
+    font-size: 16px;
+    color: #555;
+  }
+  
